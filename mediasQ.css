@@ -1,0 +1,1614 @@
+@media screen and (max-width:1280px){
+    
+   
+    /*ëste es logo*/
+    .contenedor-menu img{  
+        height: 80px;
+        width: 80px;
+        margin-left:10px;
+    } 
+    /*este es el contenedor de los a*/
+    .contenedor-menu a{
+       
+        font-family:"Abril Fatface",sans-serif;
+        color:black;
+        padding: 1px;
+        font-weight:200;
+        font-size: 1.5rem;
+        text-decoration: none;
+
+    }
+    /*ëstos son los de el contenedor de login y register*/
+    .login-register a{
+        margin: 4px;
+        color: rgb(232, 112, 20);
+        font-family: "lobster",sans-serif;
+        font-size: 1.5rem;
+    }
+    /*contenedor de login y register */
+    .login-register{
+        justify-content: right;
+        width: 200px;
+    } 
+    /*ëste es la portada principal de la pagina*/
+    .portada-img{
+        height: 200px;
+        width: 100%;
+    }
+    /* este es el contenedor sobre nosotros p , titulo ,img */
+    .sobreNosotros-contenedor{  
+        height: 500px;
+        text-align: center;
+    }
+    .sobreNosotros-contenedor img{
+       margin-top: 200px;
+       height: 250px;
+        width: 350px;
+    }
+    
+    .sobrenosotros p{
+        font-size: 1.5rem;
+        
+    }
+    .sobrenosotros h3{
+        font-family: "styles",sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+        /* tamaño de las imagenes de galeria  */
+    .galeria-img img{
+        height: 100%;
+        width: 100%;
+    }
+    /* margen inferior del contacto container separado del footer */
+    .contacto-container{
+        margin-bottom: 100px;
+       
+    }
+
+    .contacto-container-title {
+        width: 100%;   
+    }
+    /* contenedor de los inputs */
+    .contacto-container-inputs{
+        width: 100%;
+        height: 700px;
+        background-color: rgb(243, 238, 217);
+       
+    }
+    .contacto-container-title {
+        background-color: rgb(255, 123, 0);
+        color: white;
+        width: 100%;
+        height: 150px;
+        font-size: 1.6rem;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .contacto-container-inputs > input ,select{
+        font-size: 2rem;
+        border-radius: 10px;
+        outline-style: none;
+        border-style: none;
+        margin: 10px;
+        padding: 10px;
+        width: 1250px;
+    }
+    #coment{
+
+        width: 100%;
+        display: block;
+         font-size: 1.5rem;
+        
+        
+    }
+    textarea::placeholder{
+        font-size: 1.7rem;
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+    .btn-submit button{
+        cursor: pointer;
+        font-size: 1.5rem;
+        background-color: rgb(255, 123, 0); 
+        color: white;
+        border-style: none;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 20px;
+        width: 100px;
+    }
+    .footer_desc{
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: auto;
+        height: 600px;
+      
+        margin-top: 20px;
+    }
+    .footer_desc h2{
+        margin-top: 50px;
+        font-family:"Abril Fatface",sans-serif;
+        color: darkcyan;
+        padding: 10px;
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+    .footer_desc p{
+        color: rgb(23, 170, 170);
+        width: 600px;
+        font-family: "styles",sans-serif;
+        padding: 10px;
+        font-size: 1.8rem;
+        margin: auto;
+
+    }
+    .footer_desc p::first-letter{
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    
+    .iconos_footer i {
+        font-size: 3rem;
+        margin-top: 100px;
+        transition: .5s;
+    }
+    .iconos_footer i:hover{
+        cursor: pointer;
+        font-size: 40px;
+        margin: 20px;
+        transform: rotate(360deg);
+        transition: .6s;
+    }
+    
+}
+
+@media screen and (max-width:820px){
+    
+   
+    /*ëste es logo*/
+    .contenedor-menu img{  
+        height: 80px;
+        width: 80px;
+        margin-left:10px;
+    } 
+    /*este es el contenedor de los a*/
+    .contenedor-menu a{
+       
+        font-family:"Abril Fatface",sans-serif;
+        color:black;
+        padding: 1px;
+        font-weight:200;
+        font-size: 1.5rem;
+        text-decoration: none;
+
+    }
+    /*ëstos son los de el contenedor de login y register*/
+    .login-register a{
+        margin: 4px;
+        color: rgb(232, 112, 20);
+        font-family: "lobster",sans-serif;
+        font-size: 1rem;
+    }
+    /*contenedor de login y register */
+    .login-register{
+        justify-content: right;
+        width: 150px;
+    } 
+    /*ëste es la portada principal de la pagina*/
+    .portada-img{
+        height: 200px;
+        width: 100%;
+    }
+    /* este es el contenedor sobre nosotros p , titulo ,img */
+    .sobreNosotros-contenedor{  
+        height: 750px;
+        text-align: center;
+    }
+    .sobreNosotros-contenedor img{
+       margin-top: 200px;
+       height: 250px;
+        width: 350px;
+    }
+    
+    .sobrenosotros p{
+        font-size: 1.5rem;
+        
+    }
+    .sobrenosotros h3{
+        font-family: "styles",sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+        /* tamaño de las imagenes de galeria  */
+    .galeria-img img{
+        height: 100%;
+        width: 100%;
+    }
+    /* margen inferior del contacto container separado del footer */
+    .contacto-container{
+        margin-bottom: 100px;
+       
+    }
+
+    .contacto-container-title {
+        width: 100%;   
+    }
+    /* contenedor de los inputs */
+    .contacto-container-inputs{
+        width: 100%;
+        height: 700px;
+        background-color: rgb(243, 238, 217);
+       
+    }
+    .contacto-container-title {
+        background-color: rgb(255, 123, 0);
+        color: white;
+        width: 100%;
+        height: 150px;
+        font-size: 1.6rem;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .contacto-container-inputs > input ,select{
+        font-size: 2rem;
+        border-radius: 10px;
+        outline-style: none;
+        border-style: none;
+        margin: 10px;
+        padding: 10px;
+        width: 800px;
+    }
+    #coment{
+
+        width: 100%;
+        display: block;
+         font-size: 1.5rem;
+        
+        
+    }
+    textarea::placeholder{
+        font-size: 1.7rem;
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+    .btn-submit button{
+        cursor: pointer;
+        font-size: 1.5rem;
+        background-color: rgb(255, 123, 0); 
+        color: white;
+        border-style: none;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 20px;
+        width: 100px;
+    }
+    .footer_desc{
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: auto;
+        height: 600px;
+      
+        margin-top: 20px;
+    }
+    .footer_desc h2{
+        margin-top: 50px;
+        font-family:"Abril Fatface",sans-serif;
+        color: darkcyan;
+        padding: 10px;
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+    .footer_desc p{
+        color: rgb(23, 170, 170);
+        width: 600px;
+        font-family: "styles",sans-serif;
+        padding: 10px;
+        font-size: 1.8rem;
+        margin: auto;
+
+    }
+    .footer_desc p::first-letter{
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    
+    .iconos_footer i {
+        font-size: 3rem;
+        margin-top: 100px;
+        transition: .5s;
+    }
+    .iconos_footer i:hover{
+        cursor: pointer;
+        font-size: 40px;
+        margin: 20px;
+        transform: rotate(360deg);
+        transition: .6s;
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    /*ëste es logo*/
+    .contenedor-menu img{  
+        
+        height: 40px;
+        width: 40px;
+        margin-left:10px;
+    } 
+    /*este es el contenedor de los a*/
+    .contenedor-menu a{
+        font-family:"Abril Fatface",sans-serif;
+        color:black;
+        font-weight:200;
+        font-size: 1.2rem;
+        text-decoration: none;
+
+    }
+    /*ëstos son los de el contenedor de login y register*/
+    .login-register a{
+        margin: 4px;
+        color: rgb(232, 112, 20);
+        font-family: "lobster",sans-serif;
+        font-size: 10px;
+    }
+    /*contenedor de login y register */
+    .login-register{
+        justify-content: right;
+        width: 80px;
+    } 
+    /*ëste es la portada principal de la pagina*/
+    .portada-img{
+        height: 200px;
+        width: 100%;
+    }
+    /* este es el contenedor sobre nosotros p , titulo ,img */
+    .sobreNosotros-contenedor{  
+        flex-direction: column;
+        height: 600px;
+        text-align: center;
+    }
+    /* sacamos la imagen del contenedor sobrenosotros */
+    .img-sobrenosotros img{
+        width: 350px;
+        height: 200px;
+        /* display: none; */
+    }
+        /* tamaño de las imagenes de galeria  */
+    .galeria-img img{
+        height: 100%;
+        width: 100%;
+    }
+    /* margen inferior del contacto container separado del footer */
+    .contacto-container{
+        margin-bottom: 100px;
+       
+    }
+
+    .contacto-container-title {
+        width: 100%;   
+    }
+    /* contenedor de los inputs */
+    .contacto-container-inputs{
+        width: 100%;
+        height: 460px;
+        background-color: rgb(243, 238, 217);
+       
+    }
+    .contacto-container-inputs > input ,select{
+        width: 94%;
+    
+    }
+    #coment{
+        width: 100%;
+        display: block;
+        
+        
+    }
+    .footer_desc{
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: auto;
+        height: 300px;
+        margin-top: 0;
+    }
+    
+}
+/* tablet  */
+@media screen and (max-width:600px){
+    /*ëste es logo*/
+    .contenedor-menu img{  
+        
+        height: 40px;
+        width: 40px;
+        margin-left:10px;
+    } 
+    /*este es el contenedor de los a*/
+    .contenedor-menu a{
+        font-family:"Abril Fatface",sans-serif;
+        color:black;
+        font-weight:200;
+        font-size: 0.9rem;
+        text-decoration: none;
+
+    }
+    /*ëstos son los de el contenedor de login y register*/
+    .login-register a{
+        margin: 4px;
+        color: rgb(232, 112, 20);
+        font-family: "lobster",sans-serif;
+        font-size: 10px;
+    }
+    /*contenedor de login y register */
+    .login-register{
+        justify-content: right;
+        width: 80px;
+    } 
+    /*ëste es la portada principal de la pagina*/
+    .portada-img{
+        height: 200px;
+        width: 100%;
+    }
+    /* este es el contenedor sobre nosotros p , titulo ,img */
+    .sobreNosotros-contenedor{  
+        flex-direction: column;
+        height: 600px;
+        text-align: center;
+    }
+    /* sacamos la imagen del contenedor sobrenosotros */
+    .img-sobrenosotros img{
+        width: 350px;
+        height: 200px;
+        /* display: none; */
+    }
+        /* tamaño de las imagenes de galeria  */
+    .galeria-img img{
+        height: 100%;
+        width: 100%;
+    }
+    /* margen inferior del contacto container separado del footer */
+    .contacto-container{
+        margin-bottom: 100px;
+       
+    }
+
+    .contacto-container-title {
+        width: 100%;   
+    }
+    /* contenedor de los inputs */
+    .contacto-container-inputs{
+        width: 100%;
+        height: 460px;
+        background-color: rgb(243, 238, 217);
+       
+    }
+    .contacto-container-inputs > input ,select{
+        width: 94%;
+    
+    }
+    #coment{
+        width: 100%;
+        display: block;
+        
+        
+    }
+    .footer_desc{
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: auto;
+        height: 300px;
+        margin-top: 0;
+    }
+    
+}
+/* mobiles */
+@media screen and (max-width:414px){
+    /*ëste es logo*/
+    .contenedor-menu img{  
+        
+        height: 40px;
+        width: 40px;
+        margin-left:10px;
+    } 
+    /*este es el contenedor de los a*/
+    .contenedor-menu a{
+       
+        font-family:"Abril Fatface",sans-serif;
+        color:black;
+        padding: 1px;
+        font-weight:200;
+        font-size: 1rem;
+        text-decoration: none;
+
+    }
+    /*ëstos son los de el contenedor de login y register*/
+    .login-register a{
+        margin: 4px;
+        color: rgb(232, 112, 20);
+        font-family: "lobster",sans-serif;
+        font-size: 10px;
+    }
+    /*contenedor de login y register */
+    .login-register{
+        justify-content: right;
+        width: 80px;
+    } 
+    /*ëste es la portada principal de la pagina*/
+    .portada-img{
+        height: 200px;
+        width: 100%;
+    }
+    /* este es el contenedor sobre nosotros p , titulo ,img */
+    .sobreNosotros-contenedor{  
+        height: 600px;
+        width: 100%;
+        text-align: center;
+    }
+    /* sacamos la imagen del contenedor sobrenosotros */
+    .sobrenosotros h1{
+    
+        font-family:"Abril Fatface",sans-serif;
+        font-size: 1.6rem;
+    }
+    .sobrenosotros h3{
+        font-family: "styles",sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .sobrenosotros p{
+    
+        font-family: "styles",sans-serif;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .img-sobrenosotros img{
+        display: none;
+    }
+        /* tamaño de las imagenes de galeria  */
+    .galeria-img img{
+        height: 100%;
+        width: 100%;
+    }
+    /* margen inferior del contacto container separado del footer */
+    .contacto-container{
+        margin-bottom: 10px;
+    }
+    .contacto-container-title {
+        font-family: "Abril Fatface",sans-serif;
+        display: flex;
+        text-align: center;
+        background-color: rgb(255, 123, 0);
+        color: white;
+        font-size: 0.9rem;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+    }
+    
+    .contacto-container-inputs{
+        border-style: none;
+        height: 650px;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(243, 238, 217);
+    }
+    .contacto-container-inputs > input ,select{
+        font-size: 1.5rem;
+        border-radius: 10px;
+        outline-style: none;
+        border-style: none;
+        margin: 10px;
+        padding: 10px;
+        width: 390px;
+    }
+    
+   
+    textarea{
+        /* width: 300px; */
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+    textarea::placeholder{
+        font-size: 1.5rem;
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+   
+    .btn-submit{
+        text-align: center;
+    }
+    .btn-submit button{
+        cursor: pointer;
+        background-color: rgb(255, 123, 0); 
+        color: white;
+        border-style: none;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+        width: 100px;
+    }
+    .footer_container{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly
+       
+    }
+    .footer_desc{
+
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: auto;
+        height: 450px;
+        margin-top: 50px;
+    }
+    .footer_desc h2{
+        font-family:"Abril Fatface",sans-serif;
+        color: darkcyan;
+        padding: 10px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    .footer_desc p{
+        color: rgb(23, 170, 170);
+        width: 300px;
+        font-family: "styles",sans-serif;
+        padding: 10px;
+        font-size: 1.3rem;
+        margin: auto;
+    }
+    .footer_desc p::first-letter{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    
+    .iconos_footer i {
+        font-size: 3rem;
+        margin: 20px;
+        transition: .5s;
+    }
+    .iconos_footer i:hover{
+        cursor: pointer;
+        font-size: 40px;
+        margin: 20px;
+        transform: rotate(360deg);
+        transition: .6s;
+    }
+    
+}
+@media screen and (max-width:400px){
+    /*ëste es logo*/
+    .contenedor-menu img{  
+        
+        height: 40px;
+        width: 40px;
+        margin-left:10px;
+    } 
+    /*este es el contenedor de los a*/
+    .contenedor-menu a{
+       
+        font-family:"Abril Fatface",sans-serif;
+        color:black;
+        padding: 1px;
+        font-weight:200;
+        font-size: 1rem;
+        text-decoration: none;
+
+    }
+    /*ëstos son los de el contenedor de login y register*/
+    .login-register a{
+        margin: 4px;
+        color: rgb(232, 112, 20);
+        font-family: "lobster",sans-serif;
+        font-size: 0.7rem;
+    }
+    /*contenedor de login y register */
+    .login-register{
+        justify-content: right;
+        width: 100px;
+    } 
+    /*ëste es la portada principal de la pagina*/
+    .portada-img{
+        height: 200px;
+        width: 100%;
+    }
+    /* este es el contenedor sobre nosotros p , titulo ,img */
+    .sobreNosotros-contenedor{  
+        height: 450px;
+        width: 100%;
+        text-align: center;
+    }
+    /* sacamos la imagen del contenedor sobrenosotros */
+    .sobrenosotros h1{
+    
+        font-family:"Abril Fatface",sans-serif;
+        font-size: 1.5rem;
+    }
+    .sobrenosotros h3{
+        font-family: "styles",sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .sobrenosotros p{
+    
+        font-family: "styles",sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .img-sobrenosotros img{
+       
+        display: none;
+    }
+        /* tamaño de las imagenes de galeria  */
+    .galeria-img img{
+        
+        height: 100%;
+        width: 100%;
+    }
+    /* margen inferior del contacto container separado del footer */
+    .contacto-container{
+        margin-bottom: 10px;
+    }
+    .contacto-container-title {
+        font-family: "Abril Fatface",sans-serif;
+        display: flex;
+        text-align: center;
+        background-color: rgb(255, 123, 0);
+        color: white;
+        font-size: 1rem;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+    }
+    
+    .contacto-container-inputs{
+        border-style: none;
+        height: 600px;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(243, 238, 217);
+    }
+    .contacto-container-inputs > input ,select{
+        font-size: 1rem;
+        border-radius: 10px;
+        outline-style: none;
+        border-style: none;
+        margin: 10px;
+        padding: 10px;
+        width: 300px;
+    }
+    
+   
+    textarea{
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+    textarea::placeholder{
+        font-size: 1rem;
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+   
+    .btn-submit{
+        text-align: center;
+    }
+    .btn-submit button{
+        cursor: pointer;
+        background-color: rgb(255, 123, 0); 
+        color: white;
+        border-style: none;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+        width: 100px;
+    }
+    .footer_container{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly
+       
+    }
+    .footer_desc{
+
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: auto;
+        height: 350px;
+        margin-top: 50px;
+    }
+    .footer_desc h2{
+        font-family:"Abril Fatface",sans-serif;
+        color: darkcyan;
+        padding: 10px;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    .footer_desc p{
+        color: rgb(23, 170, 170);
+        width: 300px;
+        font-family: "styles",sans-serif;
+        padding: 10px;
+        font-size: 16px;
+        margin: auto;
+    }
+    .footer_desc p::first-letter{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    
+    .iconos_footer i {
+        font-size: 30px;
+        margin: 20px;
+        transition: .5s;
+    }
+    .iconos_footer i:hover{
+        cursor: pointer;
+        font-size: 40px;
+        margin: 20px;
+        transform: rotate(360deg);
+        transition: .6s;
+    }
+    
+}
+@media screen and (max-width:393px){
+    /*ëste es logo*/
+    .contenedor-menu img{  
+        
+        height: 40px;
+        width: 40px;
+        margin-left:10px;
+    } 
+    /*este es el contenedor de los a*/
+    .contenedor-menu a{
+       
+        font-family:"Abril Fatface",sans-serif;
+        color:black;
+        padding: 1px;
+        font-weight:200;
+        font-size: 0.9rem;
+        text-decoration: none;
+
+    }
+    /*ëstos son los de el contenedor de login y register*/
+    .login-register a{
+        margin: 4px;
+        color: rgb(232, 112, 20);
+        font-family: "lobster",sans-serif;
+        font-size: 0.7rem;
+    }
+    /*contenedor de login y register */
+    .login-register{
+        justify-content: right;
+        width: 100px;
+    } 
+    /*ëste es la portada principal de la pagina*/
+    .portada-img{
+        height: 200px;
+        width: 100%;
+    }
+    /* este es el contenedor sobre nosotros p , titulo ,img */
+    .sobreNosotros-contenedor{  
+        height: 450px;
+        width: 100%;
+        text-align: center;
+    }
+    /* sacamos la imagen del contenedor sobrenosotros */
+    .sobrenosotros h1{
+    
+        font-family:"Abril Fatface",sans-serif;
+        font-size: 1.5rem;
+    }
+    .sobrenosotros h3{
+        font-family: "styles",sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .sobrenosotros p{
+    
+        font-family: "styles",sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .img-sobrenosotros img{
+        display: none;
+    }
+        /* tamaño de las imagenes de galeria  */
+    .galeria-img img{
+        height: 100%;
+        width: 100%;
+    }
+    /* margen inferior del contacto container separado del footer */
+    .contacto-container{
+        margin-bottom: 10px;
+    }
+    .contacto-container-title {
+        font-family: "Abril Fatface",sans-serif;
+        display: flex;
+        text-align: center;
+        background-color: rgb(255, 123, 0);
+        color: white;
+        font-size: 1rem;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+    }
+    
+    .contacto-container-inputs{
+        border-style: none;
+        height: 600px;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(243, 238, 217);
+    }
+    .contacto-container-inputs > input ,select{
+        font-size: 1rem;
+        border-radius: 10px;
+        outline-style: none;
+        border-style: none;
+        margin: 10px;
+        padding: 10px;
+        width: 370px;
+    }
+    
+   
+    textarea{
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+    textarea::placeholder{
+        font-size: 1.2rem;
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+   
+    .btn-submit{
+        text-align: center;
+    }
+    .btn-submit button{
+        cursor: pointer;
+        background-color: rgb(255, 123, 0); 
+        color: white;
+        border-style: none;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+        width: 100px;
+    }
+    .footer_container{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly
+       
+    }
+    .footer_desc{
+
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: auto;
+        height: 350px;
+        margin-top: 50px;
+    }
+    .footer_desc h2{
+        font-family:"Abril Fatface",sans-serif;
+        color: darkcyan;
+        padding: 10px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    .footer_desc p{
+        color: rgb(23, 170, 170);
+        width: 300px;
+        font-family: "styles",sans-serif;
+        padding: 10px;
+        font-size: 16px;
+        margin: auto;
+    }
+    .footer_desc p::first-letter{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    
+    .iconos_footer i {
+        font-size: 30px;
+        margin: 20px;
+        transition: .5s;
+    }
+    .iconos_footer i:hover{
+        cursor: pointer;
+        font-size: 40px;
+        margin: 20px;
+        transform: rotate(360deg);
+        transition: .6s;
+    }
+    
+}
+@media screen and (max-width:375px){
+    /*ëste es logo*/
+    .contenedor-menu img{  
+        
+        height: 40px;
+        width: 40px;
+        margin-left:10px;
+    } 
+    /*este es el contenedor de los a*/
+    .contenedor-menu a{
+       
+        font-family:"Abril Fatface",sans-serif;
+        color:black;
+        padding: 1px;
+        font-weight:200;
+        font-size: 0.9rem;
+        text-decoration: none;
+
+    }
+    /*ëstos son los de el contenedor de login y register*/
+    .login-register a{
+        margin: 4px;
+        color: rgb(232, 112, 20);
+        font-family: "lobster",sans-serif;
+        font-size: 0.7rem;
+    }
+    /*contenedor de login y register */
+    .login-register{
+        justify-content: right;
+        width: 100px;
+    } 
+    /*ëste es la portada principal de la pagina*/
+    .portada-img{
+        height: 200px;
+        width: 100%;
+    }
+    /* este es el contenedor sobre nosotros p , titulo ,img */
+    .sobreNosotros-contenedor{  
+        height: 450px;
+        width: 100%;
+        text-align: center;
+    }
+    /* sacamos la imagen del contenedor sobrenosotros */
+    .sobrenosotros h1{
+    
+        font-family:"Abril Fatface",sans-serif;
+        font-size: 1.5rem;
+    }
+    .sobrenosotros h3{
+        font-family: "styles",sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .sobrenosotros p{
+    
+        font-family: "styles",sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .img-sobrenosotros img{
+        display: none;
+    }
+        /* tamaño de las imagenes de galeria  */
+    .galeria-img img{
+        height: 100%;
+        width: 100%;
+    }
+    /* margen inferior del contacto container separado del footer */
+    .contacto-container{
+        margin-bottom: 10px;
+    }
+    .contacto-container-title {
+        font-family: "Abril Fatface",sans-serif;
+        display: flex;
+        text-align: center;
+        background-color: rgb(255, 123, 0);
+        color: white;
+        font-size: 1rem;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+    }
+    
+    .contacto-container-inputs{
+        border-style: none;
+        height: 600px;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(243, 238, 217);
+    }
+    .contacto-container-inputs > input ,select{
+        font-size: 1rem;
+        border-radius: 10px;
+        outline-style: none;
+        border-style: none;
+        margin: 10px;
+        padding: 10px;
+        width: 360px;
+    }
+    
+   
+    textarea{
+        width: 430px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+    textarea::placeholder{
+        font-size: 1.2rem;
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+   
+    .btn-submit{
+        text-align: center;
+    }
+    .btn-submit button{
+        cursor: pointer;
+        background-color: rgb(255, 123, 0); 
+        color: white;
+        border-style: none;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+        width: 100px;
+    }
+    .footer_container{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly
+       
+    }
+    .footer_desc{
+
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: auto;
+        height: 350px;
+        margin-top: 50px;
+    }
+    .footer_desc h2{
+        font-family:"Abril Fatface",sans-serif;
+        color: darkcyan;
+        padding: 10px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    .footer_desc p{
+        color: rgb(23, 170, 170);
+        width: 300px;
+        font-family: "styles",sans-serif;
+        padding: 10px;
+        font-size: 16px;
+        margin: auto;
+    }
+    .footer_desc p::first-letter{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    
+    .iconos_footer i {
+        font-size: 30px;
+        margin: 20px;
+        transition: .5s;
+    }
+    .iconos_footer i:hover{
+        cursor: pointer;
+        font-size: 40px;
+        margin: 20px;
+        transform: rotate(360deg);
+        transition: .6s;
+    }
+    
+}
+@media screen and (max-width:360px){
+     /*ëste es logo*/
+     .contenedor-menu img{  
+        
+        height: 40px;
+        width: 40px;
+        margin-left:10px;
+    } 
+    /*este es el contenedor de los a*/
+    .contenedor-menu a{
+       
+        font-family:"Abril Fatface",sans-serif;
+        color:black;
+        padding: 1px;
+        font-weight:200;
+        font-size: 0.9rem;
+        text-decoration: none;
+
+    }
+    /*ëstos son los de el contenedor de login y register*/
+    .login-register a{
+        margin: 4px;
+        color: rgb(232, 112, 20);
+        font-family: "lobster",sans-serif;
+        font-size: 10px;
+    }
+    /*contenedor de login y register */
+    .login-register{
+        justify-content: right;
+        width: 80px;
+    } 
+    /*ëste es la portada principal de la pagina*/
+    .portada-img{
+        height: 200px;
+        width: 100%;
+    }
+    /* este es el contenedor sobre nosotros p , titulo ,img */
+    .sobreNosotros-contenedor{  
+        height: 450px;
+        width: 100%;
+        text-align: center;
+    }
+    /* sacamos la imagen del contenedor sobrenosotros */
+    .sobrenosotros h1{
+    
+        font-family:"Abril Fatface",sans-serif;
+        font-size: 1.5rem;
+    }
+    .sobrenosotros h3{
+        font-family: "styles",sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .sobrenosotros p{
+    
+        font-family: "styles",sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .img-sobrenosotros img{
+        display: none;
+    }
+        /* tamaño de las imagenes de galeria  */
+    .galeria-img img{
+        height: 100%;
+        width: 100%;
+    }
+    /* margen inferior del contacto container separado del footer */
+    .contacto-container{
+        margin-bottom: 10px;
+    }
+    .contacto-container-title {
+        font-family: "Abril Fatface",sans-serif;
+        display: flex;
+        text-align: center;
+        background-color: rgb(255, 123, 0);
+        color: white;
+        font-size: 1rem;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+    }
+    
+    .contacto-container-inputs{
+        border-style: none;
+        height: 600px;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(243, 238, 217);
+    }
+    .contacto-container-inputs > input ,select{
+        font-size: 1.5rem;
+        border-radius: 10px;
+        outline-style: none;
+        border-style: none;
+        margin: 10px;
+        padding: 10px;
+        width: 340px;
+    }
+    
+   
+    textarea{
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+    textarea::placeholder{
+        font-size: 1.5rem;
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+   
+    .btn-submit{
+        text-align: center;
+    }
+    .btn-submit button{
+        cursor: pointer;
+        background-color: rgb(255, 123, 0); 
+        color: white;
+        border-style: none;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+        width: 100px;
+    }
+    .footer_container{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly
+       
+    }
+    .footer_desc{
+
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: auto;
+        height: 350px;
+        margin-top: 50px;
+    }
+    .footer_desc h2{
+        font-family:"Abril Fatface",sans-serif;
+        color: darkcyan;
+        padding: 10px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    .footer_desc p{
+        color: rgb(23, 170, 170);
+        width: 300px;
+        font-family: "styles",sans-serif;
+        padding: 10px;
+        font-size: 16px;
+        margin: auto;
+    }
+    .footer_desc p::first-letter{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    
+    .iconos_footer i {
+        font-size: 30px;
+        margin: 20px;
+        transition: .5s;
+    }
+    .iconos_footer i:hover{
+        cursor: pointer;
+        font-size: 40px;
+        margin: 20px;
+        transform: rotate(360deg);
+        transition: .6s;
+    }
+    
+}
+@media screen and (max-width:320px){
+    /*ëste es logo*/
+    .contenedor-menu img{  
+        
+        height: 40px;
+        width: 40px;
+        margin-left:10px;
+    } 
+    /*este es el contenedor de los a*/
+    .contenedor-menu a{
+       
+        font-family:"Abril Fatface",sans-serif;
+        color:black;
+        padding: 1px;
+        font-weight:200;
+        font-size: 0.7rem;
+        text-decoration: none;
+
+    }
+    /*ëstos son los de el contenedor de login y register*/
+    .login-register a{
+        margin: 4px;
+        color: rgb(232, 112, 20);
+        font-family: "lobster",sans-serif;
+        font-size: 10px;
+    }
+    /*contenedor de login y register */
+    .login-register{
+        justify-content: right;
+        width: 80px;
+    } 
+    /*ëste es la portada principal de la pagina*/
+    .portada-img{
+        height: 200px;
+        width: 100%;
+    }
+    /* este es el contenedor sobre nosotros p , titulo ,img */
+    .sobreNosotros-contenedor{  
+        height: 500px;
+        width: 100%;
+        text-align: center;
+    }
+    /* sacamos la imagen del contenedor sobrenosotros */
+    .sobrenosotros h1{
+    
+        font-family:"Abril Fatface",sans-serif;
+        font-size: 1.5rem;
+    }
+    .sobrenosotros h3{
+        font-family: "styles",sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .sobrenosotros p{
+    
+        font-family: "styles",sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .img-sobrenosotros img{
+        display: none;
+    }
+        /* tamaño de las imagenes de galeria  */
+    .galeria-img img{
+        height: 100%;
+        width: 100%;
+    }
+    /* margen inferior del contacto container separado del footer */
+    .contacto-container{
+        margin-bottom: 10px;
+    }
+    .contacto-container-title {
+        font-family: "Abril Fatface",sans-serif;
+        display: flex;
+        text-align: center;
+        background-color: rgb(255, 123, 0);
+        color: white;
+        font-size: 1rem;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+    }
+    
+    .contacto-container-inputs{
+        border-style: none;
+        height: 600px;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(243, 238, 217);
+    }
+    .contacto-container-inputs > input ,select{
+        font-size: 1rem;
+        border-radius: 10px;
+        outline-style: none;
+        border-style: none;
+        margin: 10px;
+        padding: 10px;
+        width: 300px;
+    }
+    
+   
+    textarea{
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+    textarea::placeholder{
+        font-size: 1rem;
+        width: 405px;
+        outline-style: none;
+        border-radius: 5px;
+        resize: none;
+    
+    }
+   
+    .btn-submit{
+        text-align: center;
+    }
+    .btn-submit button{
+        cursor: pointer;
+        background-color: rgb(255, 123, 0); 
+        color: white;
+        border-style: none;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+        width: 100px;
+    }
+    .footer_container{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly
+       
+    }
+    .footer_desc{
+
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: auto;
+        height: 350px;
+        margin-top: 50px;
+    }
+    .footer_desc h2{
+        font-family:"Abril Fatface",sans-serif;
+        color: darkcyan;
+        padding: 10px;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    .footer_desc p{
+        color: rgb(23, 170, 170);
+        width: 300px;
+        font-family: "styles",sans-serif;
+        padding: 10px;
+        font-size: 16px;
+        margin: auto;
+    }
+    .footer_desc p::first-letter{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    
+    .iconos_footer i {
+        font-size: 30px;
+        margin: 20px;
+        transition: .5s;
+    }
+    .iconos_footer i:hover{
+        cursor: pointer;
+        font-size: 40px;
+        margin: 20px;
+        transform: rotate(360deg);
+        transition: .6s;
+    }
+    
+}
+
+
+
+

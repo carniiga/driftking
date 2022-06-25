@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@300&family=Lobster&family=Tiro+Devanagari+Sanskrit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    background-image: url(../imgs/120843241_10159173569511159_1552753526514114802_n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;      
+    background-position: center;   
+} 
+
+
+
+
+.contenedor-menu img{
+    /* max-width: 100px;
+    max-height: 100px; */
+    height: 80px;
+    width: 80px;
+}
+
+.contenedor-menu a{
+    font-family:"Abril Fatface",sans-serif;
+    color:black;
+    font-weight:600;
+    font-size: 18px;
+    text-decoration: none;
+    margin:auto;
+}
+.contenedor-menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.244);
+    width: 100%;
+}
+.login-register{
+    display: flex;
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+
+}
+.login-register a{
+    margin-top: 10px;
+    color: rgb(232, 112, 20);
+    font-family: "lobster",sans-serif;
+    font-size: 14px;
+}
+.contenedor-menu a:hover{
+    color:rgb(255, 27, 27);
+    transition: 0.4s;   
+}
+.login-register a:hover{
+    color: rgb(0, 0, 0);
+    font-family: "lobster",sans-serif;
+    font-size: 14px;
+}
+.portada-img{
+    /* margin: auto; */
+    background-color: blueviolet;
+    height: 400px;
+    width: 100%;
+    background-image:url(../imgs/1630061987_474789_1630062153_noticia_normal.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y:center;
+
+}
+.portada-img  img{
+    height: 300px;
+    width:500px;
+}
+
+.sobreNosotros-contenedor{
+    background-color: rgb(251, 251, 225,0.4);
+    margin: 10px 0 0 0;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img-sobrenosotros img{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+.sobrenosotros h1{
+    
+    font-family:"Abril Fatface",sans-serif;
+    font-size: 40px;
+}
+.sobrenosotros p{
+    
+    font-family: "styles",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.sobrenosotros h3{
+    font-family: "styles",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.sobrenosotros ,h1 ,h3{
+    padding: 10px;
+}
+.galeria-img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.galeria-img img{
+    height: 250px;
+    width: 400px;
+    margin: 10px;
+}
+.contacto-container{
+    margin-bottom: 10px;
+}
+.contacto-container-title {
+    font-family: "Abril Fatface",sans-serif;
+    display: flex;
+    text-align: center;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    width: 30%;
+    height: 70px;
+    margin: auto;
+}
+
+.contacto-container-inputs{
+    border-style: none;
+    height: 450px;
+    width: 30%;
+    margin: auto;
+    background-color: rgb(243, 238, 217);
+}
+.contacto-container-inputs > input ,select{
+    border-radius: 10px;
+    outline-style: none;
+    border-style: none;
+    margin: 10px;
+    padding: 10px;
+    width: 370px;
+}
+
+/* .contacto-comentario input{
+    outline-style: none;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+} */
+textarea{
+    width: 395px;
+    outline-style: none;
+    border-radius: 5px;
+    resize: none;
+
+}
+.btn-submit{
+    text-align: center;
+}
+.btn-submit button{
+    cursor: pointer;
+    background-color: rgb(255, 123, 0); 
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+}
+.footer_container{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly
+   
+}
+.footer_desc{
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: auto;
+    height: 250px;
+    margin-top: 50px;
+}
+.footer_desc h2{
+    font-family:"Abril Fatface",sans-serif;
+    color: darkcyan;
+    padding: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.footer_desc p{
+    color: rgb(23, 170, 170);
+    width: 600px;
+    font-family: "styles",sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    margin: auto;
+}
+.footer_desc p::first-letter{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.iconos_footer i {
+    font-size: 30px;
+    margin: 20px;
+    transition: .5s;
+}
+.iconos_footer i:hover{
+    cursor: pointer;
+    font-size: 40px;
+    margin: 20px;
+    transform: rotate(360deg);
+    transition: .6s;
+}
+
+
+

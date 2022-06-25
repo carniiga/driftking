@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+body{
+    background-image: url(/imgs/Assetto-Corsa-Competizione-1-3406-default-large.jpeg);
+    font-family:  'kanit',sans-serif;
+    font-weight:   bold;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center
+}
+.icono-register i{
+    border-radius: 150px;
+    opacity: calc(0.6);
+    background-color: #ffffff;
+    font-size: 150px;
+    margin: 0 0 10px  auto;
+}
+.register-container{  
+    width: 80%;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+.inputs-container input{
+    width: 200px;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    transition: 0.5s; 
+}
+button{
+    /* border: none;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin: 5px 2px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    width: 30%;
+    text-align:center;
+    font-family: 'Kanit',sans-serif;
+    font-size: 16px; */
+    text-decoration: none;
+    padding: 5px  5px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #da760a;
+    border-radius: 6px;
+    border: 2px solid #b02900;
+    cursor: pointer;
+}
+button:hover{
+    color: #ffffff;
+    background-color: #da8020
+}
+.inputs-container a{
+    color:slategray;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.check-rules {
+    
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.check-rules input {
+    height: 15px;
+    width: 15px;
+    margin: 5px 5px 5px 50px;   
+}
+.img-register img{
+    height: 200px;
+    width: 200px;
+    max-height: 500px;
+    max-width: 500px;   
+}
+.check-rules p {
+    font-size: 16px;
+    margin: 0 30px 0 0 ;
+   
+    
+}

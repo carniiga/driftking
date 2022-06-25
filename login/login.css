@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/imgs/Nurburgring.webp);
+    font-family:  'kanit',sans-serif;
+    font-weight:   bold;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.icono-login i{
+    border-radius: 150px;
+    opacity: calc(0.4);
+    background-color: #77acd2;
+    font-size: 150px;
+    margin: 0 0 10px  auto;
+}
+.login-container{
+    width: 80%;
+    height: 80vh;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;       
+}
+.inputs-container input{
+    width: 200px;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    transition: 0.5s;
+}
+button{
+    border: none;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin: 15px 2px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    width: 100px;
+    text-align:center;
+    font-family: 'Kanit',sans-serif;
+    font-size: 16px;
+}
+.inputs-container a{
+    color:slategray;
+    margin: 5px 0;
+    text-decoration: none;
+}
+.check-password {  
+    width: 157px;
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.check-password input {
+    height: 15px;
+    width: 15px;
+    margin: 5px 5px 5px 0px;   
+}
+.img-login img{
+    height: 200px;
+    width: 200px;
+    max-height: 500px;
+    max-width: 500px;   
+}
+.check-password p {
+    font-size: 15px;
+    color:rgb(129, 134, 139); ;     
+}
+.inputs-container a:hover{
+    color:rgb(129, 134, 139);
+}
